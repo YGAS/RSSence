@@ -69,7 +69,7 @@ export const trackPageView = (url: string) => {
   }
   
   // Mixpanel
-  mixpanel.track('Page View', { url });
+  //mixpanel.track('Page View', { url });
 };
 
 // Custom event tracking
